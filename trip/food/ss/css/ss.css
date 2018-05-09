@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/*---------------------------*/
+/* 引用思源中文              */
+/*---------------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/*---------------------------*/
+/* 定義網頁                  */
+/*---------------------------*/
+html, body{
+    font-family: Microsoft JhengHei;
+    font-size:15px;
+    margin:0 auto;	
+    height: 100vh;
+}
+
+
+
+/*---------------------------*/
+/* 定義標題                  */
+/*---------------------------*/
+div.header{
+    height:130px;
+    position: relative;
+    z-index:5;
+    
+}
+/*---------------------------*/
+/* 定義LOGO                  */
+/*---------------------------*/
+.logo{
+    position: absolute;
+    
+    overflow: hidden;
+}
+.logoimg{
+    margin-left:10px;
+    margin-right: 5px;
+    width:60px;
+    height:60px;
+    float: left;
+}
+.logoimg:hover{
+    border-radius: 25px;
+}
+.logo a{
+    text-decoration: none;
+    color:rgb(226, 0, 75);
+}
+.logo h1{
+    float: left;
+    margin-top:35px;
+}
+.logo h1:hover{
+    filter: brightness(150%);
+}
+/*---------------------------*/
+/* 定義搜尋框                 */
+/*---------------------------*/
+/* div.apc {
+    color:#fff;
+    z-index:10;
+    margin-top:15px;
+    margin-left:100px;
+    margin-right:250px;
+    width:280px;
+    height:50px;
+    text-align: center;
+    float: left;
+}
+
+input {
+    padding:5px 15px;  border:0 ;
+    border-radius:6px; 
+    width:100%;
+    height: 35px;
+    font-size: 17px;
+    background: #fff;
+}
+input.hover{
+    width:280px;
+}
+div.ssss{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left:280px;
+    bottom:50px;
+}
+
+div.ssss img{
+    width:40%;
+    height:40%;
+} */
+
+/*---------------------------*/
+/* 定義導覽列                */
+/*---------------------------*/
+div.navbar{
+    position: fixed;
+    width:100%;
+    background: rgb(207, 200, 200);
+     box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.7); 
+    height:90px;
+    z-index: 10;
+}
+
+div.navbar img{
+    float: left;
+    margin-top:19px;
+}
+.li{
+    position: relative;
+    line-height:14VH;
+    left:54VW;
+    float: left;
+    width:7vW;
+    text-align: center;
+}
+
+.li:hover{
+    font-size: 25px;
+    color:rgb(199, 198, 198);
+    font-weight: bold;
+}
+
+.li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: 22px;
+}
+/*---------------------------*/
+/* 定義大圖                  */
+/*---------------------------*/
+.imgg{
+    position: relative;
+    top:-40px;
+}
+.imgg img{
+    width:100vw;
+    height:180px;
+    z-index: -1;
+}
+.titt{
+    position: absolute;
+    top:60px;
+    left:70px;
+    color: #fff;
+    font-size: 50px;
+}
+/*---------------------------*/
+/* 定義容器                  */
+/*---------------------------*/
+div.container{
+    box-sizing:border-box;	
+    margin:0px auto;
+    z-index: 10;
+    overflow: hidden;
+    width:1000px;
+}
+
+/*---------------------------*/
+/* 定義內容1                  */
+/*---------------------------*/
+.ssss{
+    width:1000px;
+    box-sizing:border-box;
+    text-align:justify;
+    overflow: hidden;
+    height: 450px;
+}
+.ins{
+    float: left;
+    margin-left: 50px;
+    margin-right:230px; 
+    margin-top:10px;
+    line-height: 18px;
+}
+.ins img{
+    width: 130%;
+    height: 130%;
+}
+.ins h1{
+    color:rgb(182, 5, 5);
+    font-size: 44px;
+}
+.map{
+    float: left;
+}
+/*---------------------------*/
+/* 定義內容2                  */
+/*---------------------------*/
+div.news{
+    width:1000px;
+    height:250px;
+    box-sizing:border-box;
+    text-align:justify;
+    overflow: hidden;
+    border-top: 1px solid red;
+}
+.goo{
+    float: left;
+    margin-left:40px;
+    margin-top:40px;
+}
+
+.goo h1{
+    color:rgb(194, 0, 0);
+}
+.goo h2{
+    margin-left:60px; 
+}
+
+/*---------------------------*/
+/* 定義表尾                  */
+/*---------------------------*/
