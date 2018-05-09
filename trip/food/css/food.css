@@ -201,15 +201,22 @@ div.container {
     margin: 0px auto;
     margin-top: 30px;
     z-index: 10;
-    overflow: hidden;
-    width: 1005px;
-    border: 1px solid rgb(121, 15, 21);
-    height: 450px;
+    width: 1004px;
     padding: 0;
 }
 
 .container a {
     text-decoration: none;
+}
+
+.newsbar {
+    width: 1004px;
+    height: 450px;
+    border: 1px solid rgb(121, 15, 21);
+    padding: 0;
+    margin: 0px auto;
+    overflow: hidden;
+    z-index: 10;
 }
 
 
@@ -222,16 +229,97 @@ div.container {
 /*---------------------------*/
 
 div.news {
-    border: 0.5px solid sandybrown;
-    float: left;
-    z-index: 11;
+    height: 225px;
     overflow: hidden;
+    border: solid 1px #999;
+    float: left;
+    margin: -1px 0 0 -1px;
+    z-index: 11;
 }
 
-.news:hover {
-    opacity: 0.7;
-    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+.newpic {
+    width: 333px;
+    transition: margin-top 0.8s ease-out;
 }
+
+.news:hover .newpic {
+    margin-top: -225px;
+}
+
+.box2 {
+    padding: 10px;
+    background-color: #EEE;
+    color: #666;
+    height: 225px;
+}
+
+.box2 {
+    position: relative;
+}
+
+.box2 p {
+    margin-top: 35px;
+    margin-left: 95px;
+    font-size: 44px;
+}
+
+.box2 a {
+    box-shadow: 0 0 5px #999;
+    position: absolute;
+    left: 85px;
+    bottom: 45px;
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    border: solid 1px #69F;
+    background-color: #6CF;
+    border-radius: 3px;
+    width: 150px;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.box2 a:hover {
+    box-shadow: 0 0 5px #666;
+    background-color: #6BF;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義內容2                  */
+
+
+/*---------------------------*/
+
+
+/* div.coo {
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: justify;
+    overflow: hidden;
+    border-top: 1px solid red;
+    z-index: 50;
+}
+
+.goo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.goo h1 {
+    color: rgb(194, 0, 0);
+}
+
+.goo h2 {
+    margin-left: 60px;
+}
+ */
 
 
 /*---------------------------*/
