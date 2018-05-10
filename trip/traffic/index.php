@@ -12,7 +12,7 @@
     <meta name="author" content="LayoutIt!">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/traffic.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -63,45 +63,73 @@
 
 
                     <div class="newsbar">
-                        <div class="eat">想要吃甚麼?
-                        </div>
+                        <div class="eat">交通工具小知識</div>
                         <div class="news">
-                            <div class="newpic">
-                                <a href="1.html">
-                                    <img src="images/1.png">
-                                </a>
-                            </div>
                             <div class="newh2">
-                                <a href="1.html">
-                                    <h2>主食</h2>
-                                </a>
+                                <h2>租車</h2>
+                            </div>
+                            <div class="newpic">
+
+                                <img src="images/a1.png">
+
+                            </div>
+
+                            <div class="show">
+                                <h1>租汽車</h1>
+                                <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
+                                <h1>租摩托車</h1>
+                                <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
                             </div>
                         </div>
 
                         <div class="news">
-                            <div class="newpic">
-                                <a href="2.html">
-                                    <img src="images/2.png">
-                                </a>
-                            </div>
                             <div class="newh2">
-                                <a href="2.html">
-                                    <h2>甜品</h2>
-                                </a>
+                                <h2>計程車</h2>
+                            </div>
+                            <div class="newpic">
+
+                                <img src="images/a2.png">
+
+                            </div>
+
+                            <div class="show">
+                                <h1>123</h1>
+                                <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
+                                <h1>租摩托車</h1>
+                                <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
                             </div>
 
                         </div>
+
+                        <div class="news">
+                            <div class="newh2">
+                                <h2>大眾運輸</h2>
+                            </div>
+                            <div class="newpic">
+
+                                <img src="images/a3.png">
+
+                            </div>
+
+                            <div class="show">
+                                <h1>456</h1>
+                                <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
+                                <h1>租摩托車</h1>
+                                <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
+                            </div>
+                        </div>
+
 
                     </div>
 
 
                     <!--===================================-->
-
-                    <!--===================================-->
-                    <!--*********-->
-                    <!-- 載入js  -->
-                    <!--*********-->
-                    <script src="js/jscript.js"></script>
+                </div>
+                <!--===================================-->
+                <!--*********-->
+                <!-- 載入js  -->
+                <!--*********-->
+                <script src="js/jscript.js"></script>
 
 </body>
 

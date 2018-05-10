@@ -12,7 +12,7 @@
     <meta name="author" content="LayoutIt!">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/scene.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -40,10 +40,10 @@
                                 <a class="nav-link" href="../scene/index.html">景點</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">美食</a>
+                                <a class="nav-link" href="../food/index.html">美食</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../culture/index.html">文化</a>
+                                <a class="nav-link" href="index.html">文化</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../traffic/index.html">交通</a>
@@ -62,46 +62,15 @@
                     <!--===================================-->
 
 
-                    <div class="newsbar">
-                        <div class="eat">想要吃甚麼?
-                        </div>
-                        <div class="news">
-                            <div class="newpic">
-                                <a href="1.html">
-                                    <img src="images/1.png">
-                                </a>
-                            </div>
-                            <div class="newh2">
-                                <a href="1.html">
-                                    <h2>主食</h2>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="news">
-                            <div class="newpic">
-                                <a href="2.html">
-                                    <img src="images/2.png">
-                                </a>
-                            </div>
-                            <div class="newh2">
-                                <a href="2.html">
-                                    <h2>甜品</h2>
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                    <h1>暫時沒有</h1>
 
                     <!--===================================-->
-
-                    <!--===================================-->
-                    <!--*********-->
-                    <!-- 載入js  -->
-                    <!--*********-->
-                    <script src="js/jscript.js"></script>
+                </div>
+                <!--===================================-->
+                <!--*********-->
+                <!-- 載入js  -->
+                <!--*********-->
+                <script src="js/jscript.js"></script>
 
 </body>
 

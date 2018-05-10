@@ -201,22 +201,15 @@ div.container {
     margin: 0px auto;
     margin-top: 30px;
     z-index: 10;
+    overflow: hidden;
     width: 1004px;
+    border: 1px solid rgb(121, 15, 21);
+    height: 450px;
     padding: 0;
 }
 
 .container a {
     text-decoration: none;
-}
-
-.newsbar {
-    width: 1004px;
-    height: 450px;
-    border: 1px solid rgb(121, 15, 21);
-    padding: 0;
-    margin: 0px auto;
-    overflow: hidden;
-    z-index: 10;
 }
 
 
@@ -239,7 +232,7 @@ div.news {
 
 .newpic {
     width: 333px;
-    transition: margin-top 0.8s ease-out;
+    transition: margin-top 1.2s ease-out;
 }
 
 .news:hover .newpic {
@@ -284,42 +277,6 @@ div.news {
     box-shadow: 0 0 5px #666;
     background-color: #6BF;
 }
-
-
-/*---------------------------*/
-
-
-/* 定義內容2                  */
-
-
-/*---------------------------*/
-
-
-/* div.coo {
-    position: relative;
-    width: 1000px;
-    height: 250px;
-    box-sizing: border-box;
-    text-align: justify;
-    overflow: hidden;
-    border-top: 1px solid red;
-    z-index: 50;
-}
-
-.goo {
-    float: left;
-    margin-left: 40px;
-    margin-top: 40px;
-}
-
-.goo h1 {
-    color: rgb(194, 0, 0);
-}
-
-.goo h2 {
-    margin-left: 60px;
-}
- */
 
 
 /*---------------------------*/

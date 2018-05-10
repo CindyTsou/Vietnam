@@ -12,7 +12,7 @@
     <meta name="author" content="LayoutIt!">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/food.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -63,45 +63,98 @@
 
 
                     <div class="newsbar">
-                        <div class="eat">想要吃甚麼?
-                        </div>
                         <div class="news">
                             <div class="newpic">
-                                <a href="1.html">
-                                    <img src="images/1.png">
+                                <a href="2.html">
+                                    <img src="images/b2.png">
                                 </a>
                             </div>
-                            <div class="newh2">
-                                <a href="1.html">
-                                    <h2>主食</h2>
-                                </a>
+                            <div class="box2">
+                                <p>
+                                    XXXX
+                                </p>
+                                <a href="2.html">更多資訊</a>
                             </div>
                         </div>
 
                         <div class="news">
                             <div class="newpic">
                                 <a href="2.html">
-                                    <img src="images/2.png">
+                                    <img src="images/b2.png">
                                 </a>
                             </div>
-                            <div class="newh2">
-                                <a href="2.html">
-                                    <h2>甜品</h2>
-                                </a>
+                            <div class="box2">
+                                <p>
+                                    XXXX
+                                </p>
+                                <a href="2.html">更多資訊</a>
                             </div>
-
                         </div>
 
-                    </div>
+                        <div class="news">
+                            <div class="newpic">
+                                <a href="2.html">
+                                    <img src="images/b2.png">
+                                </a>
+                            </div>
+                            <div class="box2">
+                                <p>
+                                    XXXX
+                                </p>
+                                <a href="2.html">更多資訊</a>
+                            </div>
+                        </div>
+
+                        <div class="news">
+                            <div class="newpic">
+                                <a href="2.html">
+                                    <img src="images/b2.png">
+                                </a>
+                            </div>
+                            <div class="box2">
+                                <p>
+                                    XXXX
+                                </p>
+                                <a href="2.html">更多資訊</a>
+                            </div>
+                        </div>
+
+                        <div class="news">
+                            <div class="newpic">
+                                <a href="2.html">
+                                    <img src="images/b2.png">
+                                </a>
+                            </div>
+                            <div class="box2">
+                                <p>
+                                    XXXX
+                                </p>
+                                <a href="2.html">更多資訊</a>
+                            </div>
+                        </div>
+
+                        <div class="news">
+                            <div class="newpic">
+                                <a href="2.html">
+                                    <img src="images/b2.png">
+                                </a>
+                            </div>
+                            <div class="box2">
+                                <p>
+                                    XXXX
+                                </p>
+                                <a href="2.html">更多資訊</a>
+                            </div>
+                        </div>
 
 
-                    <!--===================================-->
+                        <!--===================================-->
 
-                    <!--===================================-->
-                    <!--*********-->
-                    <!-- 載入js  -->
-                    <!--*********-->
-                    <script src="js/jscript.js"></script>
+                        <!--===================================-->
+                        <!--*********-->
+                        <!-- 載入js  -->
+                        <!--*********-->
+                        <script src="js/jscript.js"></script>
 
 </body>
 
