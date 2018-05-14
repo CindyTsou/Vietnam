@@ -279,8 +279,10 @@ div.news:not(:last-child) {
 }
 
 .newpic h2 {
-    margin-left: 75px;
+    margin-top: 30px;
+    margin-left: 60px;
     color: rgb(194, 30, 38);
+    font-weight: bold;
 }
 
 div.newh2 {

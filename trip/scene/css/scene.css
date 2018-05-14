@@ -257,7 +257,8 @@ div.newh2 {
 }
 
 .newh2 h2 {
-    margin-top: 0px;
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 
