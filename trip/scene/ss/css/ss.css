@@ -48,46 +48,6 @@ div.header {
 /*---------------------------*/
 
 
-/* 定義LOGO                  */
-
-
-/*---------------------------*/
-
-.logo {
-    position: absolute;
-    overflow: hidden;
-}
-
-.logoimg {
-    margin-left: 10px;
-    margin-right: 5px;
-    width: 60px;
-    height: 60px;
-    float: left;
-}
-
-.logoimg:hover {
-    border-radius: 25px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: rgb(226, 0, 75);
-}
-
-.logo h1 {
-    float: left;
-    margin-top: 35px;
-}
-
-.logo h1:hover {
-    filter: brightness(150%);
-}
-
-
-/*---------------------------*/
-
-
 /* 定義搜尋框                 */
 
 
@@ -134,45 +94,60 @@ div.ssss img{
 /*---------------------------*/
 
 
+/* 定義LOGO                  */
+
+
+/*---------------------------*/
+
+.logoimg {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.logoimg:hover {
+    /* border-radius: 25px; */
+    opacity: 0.8;
+}
+
+
+/*---------------------------*/
+
+
 /* 定義導覽列                */
 
 
 /*---------------------------*/
 
-div.navbar {
-    position: fixed;
-    width: 100%;
+nav {
     background: rgb(207, 200, 200);
     box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.7);
-    height: 90px;
-    z-index: 10;
 }
 
-div.navbar img {
-    float: left;
-    margin-top: 19px;
-}
-
-.li {
-    position: relative;
-    line-height: 14VH;
-    left: 54VW;
-    float: left;
-    width: 7vW;
-    text-align: center;
-}
-
-.li:hover {
-    font-size: 25px;
-    color: rgb(199, 198, 198);
+.navbar-brand h2 {
+    margin-top: 20px;
+    color: rgb(226, 0, 75);
     font-weight: bold;
 }
 
-.li a {
-    text-decoration: none;
-    color: black;
+.navbar-brand h2:hover {
+    filter: brightness(150%);
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-link {
+    color: black !important;
     font-weight: bolder;
     font-size: 22px;
+}
+
+.nav-item a:hover {
+    opacity: 0.6;
 }
 
 
@@ -213,10 +188,11 @@ div.navbar img {
 /*---------------------------*/
 
 div.container {
+    margin-top: 100px;
     box-sizing: border-box;
     margin: 0px auto;
+    margin-top: 100px;
     z-index: 10;
-    overflow: hidden;
     width: 1000px;
 }
 
@@ -244,8 +220,8 @@ div.container {
 
 .map {
     position: absolute;
-    left: 700px;
-    top: 200px;
+    left: 600px;
+    top: 20px;
 }
 
 
