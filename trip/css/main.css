@@ -214,16 +214,18 @@ div.container {
 
 div.news {
     margin-top: 3vh;
-    width: 184px;
+    margin-left: 25px;
+    width: 220px;
     box-sizing: border-box;
     text-align: justify;
     float: left;
     z-index: 11;
 }
 
-div.news:not(:last-child) {
-    margin-right: 20px;
-}
+
+/* div.news:not(:last-child) {
+    margin-right: 25px;
+} */
 
 div.newpic img {
     height: 100%;
@@ -237,7 +239,7 @@ div.newpic img {
 div.newh2 {
     position: absolute;
     margin-top: -90px;
-    width: 184px;
+    width: 220px;
     background: rgb(0, 0, 0, 0.8);
     z-index: 15;
     text-align: center;
