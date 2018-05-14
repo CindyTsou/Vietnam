@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/*---------------------------*/
+
+
+/* 引用思源中文                */
+
+
+/*---------------------------*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/*---------------------------*/
+
+
+/* 定義網頁                   */
+
+
+/*---------------------------*/
+
+html,
+body {
+    /*設定思源中文*/
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義LOGO                  */
+
+
+/*---------------------------*/
+
+.logoimg {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.logoimg:hover {
+    /* border-radius: 25px; */
+    opacity: 0.8;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義導覽列                */
+
+
+/*---------------------------*/
+
+nav {
+    background: rgb(207, 200, 200);
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand h2 {
+    margin-top: 20px;
+    color: rgb(226, 0, 75);
+    font-weight: bold;
+}
+
+.navbar-brand h2:hover {
+    filter: brightness(150%);
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.nav-item a:hover {
+    opacity: 0.6;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義容器                   */
+
+
+/*---------------------------*/
+
+div.container {
+    box-sizing: border-box;
+    margin: 0px auto;
+    width: 1000px;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義內容                   */
+
+
+/*---------------------------*/
+
+.name {
+    margin-left: 42%;
+    color: rgb(194, 0, 0);
+}
+
+div.news {
+    width: 1000px;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: justify;
+    overflow: hidden;
+    border-top: 1px solid red;
+}
+
+.goo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.goo h1 {
+    color: rgb(194, 0, 0);
+}
+
+.goo h2 {
+    margin-left: 60px;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義表尾                   */
+
+
+/*---------------------------*/
