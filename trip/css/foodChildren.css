@@ -1,0 +1,44 @@
+/*---------------------------*/
+
+
+/* 定義內容                   */
+
+
+/*---------------------------*/
+
+.name {
+    margin-left: 42%;
+    color: rgb(194, 0, 0);
+}
+
+div.news {
+    width: 1000px;
+    height: 250px;
+    box-sizing: border-box;
+    text-align: justify;
+    overflow: hidden;
+    border-top: 1px solid red;
+}
+
+.goo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.goo h1 {
+    color: rgb(194, 0, 0);
+}
+
+.goo h2 {
+    margin-left: 60px;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義表尾                   */
+
+
+/*---------------------------*/

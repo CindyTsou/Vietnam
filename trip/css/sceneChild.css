@@ -1,0 +1,93 @@
+/*---------------------------*/
+
+
+/* 定義大圖                  */
+
+
+/*---------------------------*/
+
+.imgg {
+    position: relative;
+    top: 10px;
+    left: 1vw;
+}
+
+.imgg img {
+    width: 98vw;
+    height: 150px;
+    z-index: -1;
+}
+
+.titt {
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    color: #fff;
+}
+
+.titt h1 {
+    font-size: 100px;
+    font-weight: 650;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義內容                  */
+
+
+/*---------------------------*/
+
+div.news {
+    margin-top: 3vh;
+    border: 1px solid rgb(121, 15, 21);
+    width: 240px;
+    box-sizing: border-box;
+    text-align: justify;
+    float: left;
+    z-index: 11;
+    overflow: hidden;
+}
+
+div.news:not(:last-child) {
+    margin-right: 50px;
+}
+
+.news:hover {
+    opacity: 0.7;
+}
+
+.newpic img {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 180px;
+    height: 200px;
+}
+
+.newpic h2 {
+    margin-top: 30px;
+    margin-left: 60px;
+    color: rgb(194, 30, 38);
+    font-weight: bold;
+}
+
+div.newh2 {
+    position: absolute;
+    margin-top: -5px;
+    height: 60px;
+    width: 238px;
+    background: rgb(0, 0, 0, 0.8);
+    z-index: 15;
+    text-align: center;
+    font-size: 20px;
+}
+
+.newh2 h2 {
+    margin-top: 5px;
+    color: rgb(134, 134, 134);
+}
+
+.news a {
+    text-decoration: none;
+}
