@@ -1,0 +1,58 @@
+/*---------------------------*/
+
+
+/* 定義內容                  */
+
+
+/*---------------------------*/
+
+.newsbar .eat {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Rock Salt', cursive;
+    color: rgb(121, 15, 21);
+    margin-bottom: 15px;
+}
+
+div.news {
+    border: 1px solid rgb(121, 15, 21);
+    width: 240px;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: justify;
+    float: left;
+    z-index: 11;
+    overflow: hidden;
+}
+
+div.news:not(:last-child) {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.news:hover {
+    opacity: 0.7;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+}
+
+.newpic img {
+    width: 240px;
+    height: 240px;
+}
+
+div.newh2 {
+    position: absolute;
+    margin-top: -0px;
+    height: 60px;
+    width: 238px;
+    background: rgb(0, 0, 0, 0.8);
+    z-index: 15;
+    text-align: center;
+    font-size: 20px;
+}
+
+.newh2 h2 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(175, 174, 174);
+}
