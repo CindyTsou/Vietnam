@@ -1,0 +1,59 @@
+/*---------------------------*/
+
+
+/* 定義內容                  */
+
+
+/*---------------------------*/
+
+div.newPic {
+    position: relative;
+    /* display: inline-block; */
+}
+
+div.newPic img {
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.newPic:hover {
+    filter: sepia(70%);
+}
+
+div.newH {
+    position: absolute;
+    margin-top: -90px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.8);
+    z-index: 15;
+    text-align: center;
+    font-size: 15px;
+    height: 65px;
+}
+
+.newH h2 {
+    margin-top: 17px;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+div.newH:hover {
+    background: rgba(58, 58, 58, 0.8);
+}
+
+
+/*---------------------------*/
+
+
+/* 定義登入                   */
+
+
+/*---------------------------*/
+
+.Login {
+    position: absolute;
+    top: 0;
+}
