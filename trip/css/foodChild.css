@@ -6,12 +6,21 @@
 
 /*---------------------------*/
 
+.container {
+    margin: 35px 170px 0;
+}
+
+@media (max-width: 992px) {
+    .container {
+        margin: 35px 0px 0;
+    }
+}
+
 div.news {
     height: 225px;
     overflow: hidden;
     border: solid 1px #999;
     float: left;
-    margin: -1px 0 0 -1px;
     z-index: 11;
 }
 
