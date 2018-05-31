@@ -31,21 +31,38 @@
 
 /*---------------------------*/
 
+.goog {
+    margin-bottom: 150px;
+}
+
 .goo {
+    margin-top: 80px;
+}
+
+.goo,
+.goog {
     width: 800px;
     border-top: 1px solid rgb(194, 0, 0);
     float: left;
     margin-left: 40px;
-    margin-top: 150px;
+    word-break: keep-all;
 }
 
-.goo h1 {
+.goo h1,
+.goog h1 {
     color: rgb(194, 0, 0);
     font-weight: bolder;
 }
 
-.goo h2 {
+.goo h2,
+.goog h2 {
+    margin-top: 30px;
     margin-left: 60px;
+    line-height: 8vh;
+}
+
+#inner img {
+    width: 100%;
 }
 
 

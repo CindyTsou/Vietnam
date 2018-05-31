@@ -1,11 +1,33 @@
-.newWa {
-    font-weight: bolder;
-    font-size: 30px;
+.nW {
     margin-top: 5vh;
-    height: 10vh;
+    padding: 10%;
+    padding-left: 10%;
+    background: rgb(250, 195, 164);
+    height: 70vh;
 }
 
-.container img {
-    margin-top: 5vh;
-    width: 100%;
+.nW h2 {
+    color: #FFF;
+    background: rgb(4, 124, 84);
+    border-radius: 40%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.warn {
+    color: rgb(98, 110, 72);
+    position: relative;
+    top: 20%;
+    left: -5%;
+    font-size: 16.5px;
+    font-weight: 850;
+    font-family: Microsoft YaHei;
+    text-align: justify;
+    word-break: keep-all;
+    opacity: 0;
+    line-height: 6vh;
+}
+
+.nW:hover .warn {
+    opacity: 1;
 }

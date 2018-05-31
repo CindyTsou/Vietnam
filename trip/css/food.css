@@ -8,20 +8,22 @@
 
 .eat {
     text-align: center;
+    font-weight: 900;
     font-size: 32px;
-    font-family: 'Rock Salt', cursive;
     color: rgb(121, 15, 21);
     margin-top: 15px;
 }
 
 .newFood {
     margin-top: 5vh;
-    border: 1px solid rgb(121, 15, 21);
+    border: 3px solid rgb(170, 168, 168);
+    border-radius: 5px;
 }
 
 .newFood:hover {
     opacity: 0.7;
-    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    border: none;
 }
 
 .newFood img {

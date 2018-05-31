@@ -1,6 +1,5 @@
 @charset "utf-8";
-
-.bb-bookblock {	
+.bb-bookblock {
     width: 700px;
     height: 400px;
     z-index: 15;
@@ -11,6 +10,6 @@
 }
 
 .bb-custom-wrapper nav a {
-    background:#0BB828;
-    color: #ff0;
-} 
+    background: rgb(219, 116, 116);
+    color: rgb(34, 53, 231);
+}

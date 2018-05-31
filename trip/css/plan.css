@@ -92,3 +92,22 @@ body {
         width: auto;
     }
 }
+
+#keyIn {
+    position: absolute;
+    z-index: 15;
+    background: #121212;
+    opacity: 0.6;
+    color: rgb(250, 243, 176);
+    height: 160px;
+}
+
+#keyIn p {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+select {
+    background: rgb(2, 65, 23);
+    color: rgb(255, 254, 219);
+}

@@ -7,31 +7,40 @@
 /*---------------------------*/
 
 .name {
-    margin-left: 42%;
+    margin-left: 44%;
+    display: inline;
+    font-weight: 900;
     color: rgb(194, 0, 0);
 }
 
-div.news {
-    width: 1000px;
-    height: 250px;
-    box-sizing: border-box;
-    text-align: justify;
-    overflow: hidden;
-    border-top: 1px solid red;
+.goog {
+    margin-bottom: 150px;
 }
 
 .goo {
+    margin-top: 80px;
+}
+
+.goo,
+.goog {
+    width: 800px;
+    border-top: 1px solid rgb(194, 0, 0);
     float: left;
     margin-left: 40px;
-    margin-top: 40px;
+    word-break: keep-all;
 }
 
-.goo h1 {
+.goo h1,
+.goog h1 {
     color: rgb(194, 0, 0);
+    font-weight: bolder;
 }
 
-.goo h2 {
+.goo h2,
+.goog h2 {
+    margin-top: 30px;
     margin-left: 60px;
+    line-height: 8vh;
 }
 
 
