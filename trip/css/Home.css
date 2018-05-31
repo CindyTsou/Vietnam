@@ -12,7 +12,7 @@ div.newPic {
 }
 
 div.newPic img {
-    height: 100%;
+    height: 75VH;
     width: 100%;
     margin-top: 10%;
 }
@@ -20,6 +20,12 @@ div.newPic img {
 .newPic:hover {
     filter: sepia(70%);
 }
+
+/* @media (max-height: 1080px) {
+     {
+        
+    }
+} */
 
 div.newH {
     position: absolute;
@@ -42,18 +48,4 @@ div.newH {
 
 div.newH:hover {
     background: rgba(58, 58, 58, 0.8);
-}
-
-
-/*---------------------------*/
-
-
-/* 定義登入                   */
-
-
-/*---------------------------*/
-
-.Login {
-    position: absolute;
-    top: 0;
 }

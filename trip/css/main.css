@@ -85,7 +85,7 @@ div.header {
 
 nav {
     background: rgb(207, 200, 200);
-    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.7);
 }
 
 .navbar-brand h2 {
@@ -132,12 +132,18 @@ nav {
 .nav-link {
     color: black !important;
     font-weight: bolder;
-    font-size: 180%;
+    font-size: 22px;
 }
 
 .nav-item:hover {
     opacity: 0.6;
 }
+
+
+/*---------------------------*/
+
+
+/*---------------------------*/
 
 
 /*---------------------------*/
@@ -149,17 +155,37 @@ nav {
 /*---------------------------*/
 
 #Login {
+    font-size: 15px;
+    font-weight: bold;
     position: fixed;
-    top: 40%;
-    right: -132px;
+    top: 10%;
+    right: -150px;
     background: #fac9c9;
-    padding: 20px 20px;
+    padding: 2vw 2vw;
     border-radius: 10px;
 }
 
+
+/* ****************<---需要以後修改 暫用--> */
+
+@media (min-width: 1500px) {
+    #Login {
+        right: -10.5%;
+    }
+}
+
+
+/* <-----> */
+
 @media (max-width: 992px) {
     #Login {
-        right: -125px;
+        right: -145px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Login {
+        right: -140px;
     }
 }
 
@@ -170,4 +196,52 @@ nav {
 #Login #title {
     padding-right: 5px;
     /*讓標題與連結中間有空隙*/
+}
+
+
+/*---------------------------*/
+
+
+/* 定義Boostrap              */
+
+
+/*---------------------------*/
+
+
+/* define bootstrap 5 columns */
+
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-1-5 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1-5 {
+        width: 20%;
+        float: left;
+    }
 }

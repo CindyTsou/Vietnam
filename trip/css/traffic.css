@@ -9,7 +9,7 @@
 .newsbar .eat {
     text-align: center;
     font-size: 32px;
-    font-family: 'Rock Salt', cursive;
+    font-weight: 900;
     color: rgb(121, 15, 21);
     margin-bottom: 0px;
 }
@@ -75,20 +75,22 @@ div.newh2 {
 /*---------------------------*/
 
 .show {
-    width: 1000px;
-    background: rgb(209, 193, 193);
+    width: 1030px;
+    background: rgb(253, 244, 173);
     position: absolute;
-    left: 14vw;
+    left: 273px;
     opacity: 0;
     margin-top: 5px;
 }
 
 .show h1 {
     color: rgb(179, 7, 21);
+    font-weight: 800;
 }
 
 .show span {
     font-size: 20px;
+    color: rgb(57, 66, 36);
 }
 
 .newpic:hover+.show {
@@ -97,4 +99,8 @@ div.newh2 {
 
 .newh2:hover~.show {
     opacity: 1;
+}
+
+.tra {
+    margin-bottom: 30px;
 }

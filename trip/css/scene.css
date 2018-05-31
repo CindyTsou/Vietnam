@@ -6,12 +6,12 @@
 
 /*---------------------------*/
 
-.newsbar .eat {
+.eat {
     text-align: center;
+    font-weight: 900;
     font-size: 32px;
-    font-family: 'Rock Salt', cursive;
     color: rgb(121, 15, 21);
-    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 div.news {
@@ -22,7 +22,7 @@ div.news {
     float: left;
     z-index: 11;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 5vh;
 }
 
 div.news {
@@ -31,7 +31,7 @@ div.news {
 
 .news:hover {
     opacity: 0.7;
-    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.7);
 }
 
 div.newh2 {
