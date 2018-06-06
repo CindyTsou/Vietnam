@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body onclick="stop()">
     <header>
         <div class="container-fluid">
             <div class="row">
@@ -52,29 +52,58 @@
     <!--===================================-->
     <div class="container">
         <!--===================================-->
+        <!--===================================-->
+        <!--===================================-->
+        <script>
+            function mOver1() {
+                var x = document.getElementsByClassName("show");
+                x[0].style.opacity = "1";
+                x[1].style.opacity = "0";
+                x[2].style.opacity = "0";
+            }
 
+            function mOver2() {
+                var x = document.getElementsByClassName("show");
+                x[0].style.opacity = "0";
+                x[1].style.opacity = "1";
+                x[2].style.opacity = "0";
+            }
 
+            function mOver3() {
+                var x = document.getElementsByClassName("show");
+                x[0].style.opacity = "0";
+                x[1].style.opacity = "0";
+                x[2].style.opacity = "1";
+            }
+
+            function stop() {
+                var x = document.getElementsByClassName("show");
+                x[0].style.opacity = "0";
+                x[1].style.opacity = "0";
+                x[2].style.opacity = "0";
+            }
+        </script>
+        <!--===================================-->
+        <!--===================================-->
+        <!--===================================-->
+        <!--===================================-->
         <div class="newsbar">
             <div class="eat">交通工具小知識</div>
             <div class="news">
                 <div class="newh2">
                     <h2>租車</h2>
                 </div>
-                <div class="newpic">
+                <div class="newpic" onmouseover="mOver1()">
 
                     <img src="images/a1.png">
 
                 </div>
 
                 <div class="show">
-                    <div class="tra">
-                        <h1>租汽車</h1>
-                        <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
-                    </div>
-                    <div class="ttt">
-                        <h1>租摩托車</h1>
-                        <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
-                    </div>
+                    <h1>租汽車</h1>
+                    <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
+                    <h1>租摩托車</h1>
+                    <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
                 </div>
             </div>
 
@@ -82,21 +111,17 @@
                 <div class="newh2">
                     <h2>計程車</h2>
                 </div>
-                <div class="newpic">
+                <div class="newpic" onmouseover="mOver2()">
 
                     <img src="images/a2.png">
 
                 </div>
 
                 <div class="show">
-                    <div class="tra">
-                        <h1>租汽車</h1>
-                        <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
-                    </div>
-                    <div class="ttt">
-                        <h1>租摩托車</h1>
-                        <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
-                    </div>
+                    <h1>TAXI</h1>
+                    <span>1.計程車</span>
+                    <h1>TAXITAXI</h1>
+                    <span>1.計程車</span>
                 </div>
 
             </div>
@@ -105,23 +130,17 @@
                 <div class="newh2">
                     <h2>大眾運輸</h2>
                 </div>
-                <div class="newpic">
+                <div class="newpic" onmouseover="mOver3()">
 
                     <img src="images/a3.png">
 
                 </div>
 
                 <div class="show">
-
-                    <div class="tra">
-                        <h1>租汽車</h1>
-                        <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
-                    </div>
-                    <div class="ttt">
-                        <h1>租摩托車</h1>
-                        <span>1.駕駛規則:國家規定靠右行駛，必須使用安全座椅，安全帶等</span>
-                    </div>
-
+                    <h1>大眾運輸</h1>
+                    <span>1.大眾運輸</span>
+                    <h1>大眾運輸</h1>
+                    <span>1.大眾運輸</span>
                 </div>
             </div>
 
