@@ -16,7 +16,8 @@
     }
 }
 
-div.news {
+.news {
+    position: relative;
     height: 225px;
     overflow: hidden;
     border: solid 1px #999;
@@ -25,8 +26,10 @@ div.news {
 }
 
 .newpic {
+    position: relative;
     width: 333px;
     transition: margin-top 0.85s ease-out;
+    z-index: 11;
 }
 
 .newpic img {
@@ -34,19 +37,21 @@ div.news {
     height: 225px;
 }
 
-.news:hover .newpic {
-    margin-top: -225px;
+.news:hover .box2 {
+    top: 0;
+    transition: all 1.1s;
 }
 
 .box2 {
+    width: 100%;
+    top: 225px;
     padding: 10px;
     background-color: rgba(226, 41, 81, 0.89);
     color: #FFF;
     height: 225px;
-}
-
-.box2 {
-    position: relative;
+    position: absolute;
+    opacity: 0.85;
+    z-index: 15;
 }
 
 .box2 p {
