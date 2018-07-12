@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(194, 194, 194);
+}
+
+
+/*---------------------------*/
+
+
+/* 定義內容                  */
+
+
+/*---------------------------*/
+
+.Scene {
+    text-align: center;
+    margin-top: 3vh;
+    height: 300px;
+    overflow: hidden;
+}
+
+.Scene img:hover {
+    filter: blur(3px) brightness(70%);
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.Scene img:hover~#readMore {
+    opacity: 1;
+    transition: .6s;
+}
+
+#readMore {
+    opacity: 0;
+    font-size: 1em;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 90px;
+    color: white;
+    letter-spacing: 0.8em;
+}
+
+.Scene img {
+    width: 100%;
+    height: 84%;
+    max-height: 84%;
+    z-index: -1;
+}
+
+.Scene h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.Scene a {
+    text-decoration: none;
+}

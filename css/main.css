@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*---------------------------*/
+
+
+/* 定義網頁                  */
+
+
+/*---------------------------*/
+
+html,
+body {
+    font-family: Microsoft JhengHei;
+}
+
+
+/* 定義LOGO圖片               */
+
+.logoimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+
+/* 定義LOGO文字              */
+
+.lo a {
+    text-decoration: none;
+}
+
+.lo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+    width: 220px;
+    height: 85px;
+    background: rgb(243, 224, 182);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.logotext {
+    margin-top: 5px;
+    color: rgb(226, 0, 75);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.logo:hover {
+    filter: brightness(85%);
+    transition: .3s;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義導覽列                */
+
+
+/*---------------------------*/
+
+.dropdown-item:hover {
+    background: gray;
+}
+
+#headNav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+#Nabutton {
+    background: url(../images/NAV.jpg);
+    background-size: cover;
+    border: none;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    z-index: 5;
+    cursor: pointer;
+}
+
+#NA {
+    height: 100vh;
+    width: 250px;
+    position: absolute;
+    left: -250px;
+    background: rgb(51, 51, 50);
+    opacity: 0.7;
+    z-index: 5;
+}
+
+#NA a {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: seashell;
+}
+
+#NA a:not(:first-child) {
+    top: 100px;
+    margin-top: 4VH;
+}
+
+#close {
+    margin-top: 5px;
+    float: right;
+    height: 20px;
+    width: 20px;
+    background-image: url(../images/X.png);
+    background-size: cover;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義登入                  */
+
+
+/*---------------------------*/
+
+#Lo a {
+    text-decoration: none;
+}
+
+#login:hover {
+    filter: brightness(160%);
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    transition: .5s;
+}
+
+#login {
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+    top: 50px;
+    left: 85px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    height: 60px;
+    width: 60px;
+    font-weight: 900;
+    font-size: 18px;
+}

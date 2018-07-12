@@ -1,0 +1,64 @@
+/*---------------------------*/
+
+
+/* 背景                  */
+
+
+/*---------------------------*/
+
+body {
+    background-image: url("../images/a.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/*---------------------------*/
+
+
+/* 定義內容                  */
+
+
+/*---------------------------*/
+
+#sepera {
+    position: absolute;
+    justify-content: flex-start;
+    top: 0;
+    width: 100vw;
+    display: flex;
+}
+
+#sepera a {
+    text-decoration: none;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100VH;
+    flex-basis: 0px;
+    border-right: 1px solid #DDD;
+    flex-grow: 1;
+}
+
+.nextPage {
+    position: relative;
+    bottom: -45px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #FFF;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.more {
+    border-top: 1px solid snow;
+    border-bottom: 1px solid snow;
+    font-size: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+/*---------------------------*/
+
+
+/* 定義內容                  */
+
+
+/*---------------------------*/
+
+.eat {
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: rgb(121, 15, 21);
+    margin-top: 15px;
+}
+
+.newFood {
+    margin-top: 5vh;
+    border: 3px solid rgb(170, 168, 168);
+    border-radius: 5px;
+}
+
+.newFood:hover {
+    opacity: 0.7;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+.newFood img {
+    width: 100%;
+    height: 80%;
+}
+
+.newFood a {
+    text-decoration: none;
+}
+
+.newText {
+    padding-top: 10px;
+    height: 8vh;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.newText h2 {
+    font-weight: bold;
+    color: rgb(175, 174, 174);
+    font-size: 25px;
+}
